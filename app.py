@@ -115,6 +115,7 @@ def load_xception_model(model_path):
     model.load_weights(model_path)
     
     return model
+    
 
 # Streamlit interface
 st.title("Brain Tumor Classification")
